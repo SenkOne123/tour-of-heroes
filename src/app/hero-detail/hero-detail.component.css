@@ -5,15 +5,19 @@
   cursor: pointer;
   display: block;
   width: 100px;
-  height: 30px;
+  height: 40px;
+  border: 0;
   background: #dcdcdc;
   text-align: center;
   font-family: Montserrat, sans-serif;
   font-size: 18px;
-  margin-top: 30px;
-  padding-top: 10px;
 }
 .button-back:hover {
   background: #546eee;
   color: #ffffff;
+}
+.buttons__section {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
 }
