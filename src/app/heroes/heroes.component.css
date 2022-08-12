@@ -1,0 +1,67 @@
+* {
+  font-family: "Montserrat";
+}
+.heroes__field > h2 {
+  font-family: "Montserrat";
+  font-size: 40px;
+}
+.heroes__field {
+  padding: 20px;
+}
+.heroes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 30px;
+  padding: 0 20px;
+  list-style-type: none;
+}
+.heroes li {
+  margin-top: 15px;
+  min-width: 250px;
+}
+.heroes li > button {
+  cursor: pointer;
+  position: relative;
+  border: 0;
+  color: #fff;
+  background: #546eee;
+  min-width: 250px;
+  min-height: 40px;
+  text-align: start;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+.heroes li > button:hover {
+  transform: scale(1.2);
+}
+.heroes li > button::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: #a7c1f3;
+  border-radius: 10px 0;
+}
+.heroes li > button > span:nth-child(1) {
+  color: #000000;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 18px;
+}
+.heroes li > button > span:nth-child(2) {
+  position: absolute;
+  content: "";
+  top: 13px;
+  left: 40%;
+}
+.heroes--selected {
+
+}
+@media screen and (max-width: 767px) {
+  .heroes {
+    justify-content: center;
+  }
+}
