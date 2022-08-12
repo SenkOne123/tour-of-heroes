@@ -28,6 +28,10 @@ nav {
   background: #dcdcdc;
   font-family: Montserrat, sans-serif;
 }
+.app__nav-buttons:hover {
+  background: #546eee;
+  color: #ffffff;
+}
 .router-content__container {
   margin-top: 30px;
 }
