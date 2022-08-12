@@ -1,18 +1,16 @@
 * {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
 }
-.heroes__field > h2 {
-  font-family: "Montserrat";
+h2 {
+  font-family: "Montserrat", sans-serif;
   font-size: 40px;
 }
-.heroes__field {
-  padding: 20px;
-}
+
 .heroes {
   display: flex;
   flex-wrap: wrap;
   gap: 10px 30px;
-  padding: 0 20px;
+  padding: 0;
   list-style-type: none;
 }
 .heroes li {
@@ -57,8 +55,8 @@
   top: 13px;
   left: 40%;
 }
-.heroes--selected {
-
+.selected {
+  background: #f1a667 !important;
 }
 @media screen and (max-width: 767px) {
   .heroes {
